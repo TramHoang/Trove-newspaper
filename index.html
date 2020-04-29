@@ -45,6 +45,10 @@
     </div>
 
     <div class="container">
+        
+        <div class="search-box">
+            <input type="text" name="" placeholder="Type to search">
+        </div>
 
       <!-- EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS -->
       <h1 ng-hide="listHide" class="ng-hide" id="exhibition-name" class="page-header">Forecasters</h1>
@@ -56,14 +60,16 @@
         <p><small>This demonstration was created by <a href="http://discontents.com.au/about-me">Tim Sherratt</a> (<a href="http://twitter.com/wragge">@wragge</a>) to show how easy it is to create your own exhibition.</small></p>
       </div>
       <ul ng-hide="listHide" class="ng-hide" id="lists">
-        <!-- CHANGE THIS TO LIST THE TROVE LISTS THAT MAKE UP YOUR EXHIBITION -->
+        
+          <!-- CHANGE THIS TO LIST THE TROVE LISTS THAT MAKE UP YOUR EXHIBITION -->
+        
         <li><a class="list-link" href="http://trove.nla.gov.au/list?id=43805">A day in the life of Mr Mares, weatherman</a></li>
         <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83777">Clement Wragge</a></li>
         <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83774">Inigo Jones</a></li>
       </ul>
       <script>
         // ADD YOUR TROVE API KEY
-        var troveAPIKey = "";
+        var troveAPIKey = "3filjfm1hd1j7spk";
         var config = {};
         config.listSnippet = 50;
         config.directLinks = true;
